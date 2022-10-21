@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    background: rgb(247,181,84);
+    background: linear-gradient(126deg, rgba(247,181,84,1) 0%, rgba(235,164,80,1) 100%);
+}
+
+h1{
+    margin: 0px;
+}
+
+.head{
+    /* background-color: orange; */
+    text-align: center;
+    color: black;
+    font-size: 23px;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    border: 20px solid transparent;
+}
+
+input[type="text"],input[type="button"]
+{
+    height:35px;
+    font-size:14pt;
+    border-radius: 15px;
+}
+
+.menu{
+    color:white;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:orange;
+
+}
+
+.card{
+    min-height: 300px;
+    width: 1000px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    border: 25px solid;
+    border-color: rgb(247,181,84);
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px;
+}
+.boxtext{
+    width: 100%;
+    flex-direction: column;
+    display: inline-block;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: transparent;
+    border: 25px solid transparent;
+    align-items: center;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+.cart{
+    display: flex;
+    justify-content: right;
+    border: 12px solid transparent;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: small;
+    border-radius: 10px;
+}

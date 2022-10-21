@@ -1,0 +1,44 @@
+body{
+    margin:0px;
+    height: 100%;
+    width:100%;
+    /* background-color: blueviolet; */
+   
+}
+
+.background-img{
+    background-image: url("C:/Users/91938/Desktop/visual studio html/Online shopping/Resources/Shopping-cart--1024x576.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.box{
+    
+    /* text-align: left; */
+    /* color: #BB9CDC; */
+    /* background-color: blue; */
+    justify-content: flex-start;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    /* font-family: cursive; */
+    font-size: large;
+    font-weight: bold;
+    /* border-radius: 50px; */
+}
+
+input[type="text"],input[type="email"],input[type="password"]
+{
+    height:40px;
+    font-size:14px;
+    border-radius: 15px;
+}
+
+button{
+    height:25px;
+    font-size:10px;
+    border-radius: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    background-image: url("C:/Users/91938/Desktop/visual studio html/Online shopping/Resources/Shopping-cart--1024x576.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    margin: 0px;
+}
+
+.head{
+    /* background-color: orange; */
+    text-align: center;
+    color: black;
+    font-size: 23px;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    border: 20px solid transparent;
+}
+
+input[type="text"],input[type="button"]
+{
+    height:35px;
+    font-size:14pt;
+    border-radius: 15px;
+}
+
+.menu{
+    color:white;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:orange;
+
+}

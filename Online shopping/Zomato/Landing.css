@@ -1,0 +1,55 @@
+h1{
+    margin-left: 115px;
+    font-weight: bolder;
+    font-size: 35px;
+    font-style: italic;
+}
+
+body{
+    background-image: url("C:/Users/91938/Pictures/Saved Pictures/zomato_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstdiv{
+    display: flex;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.secdiv{
+    /* display: flex; */
+    margin-top: 16px;
+}
+
+input[type="text"]{
+    font-size: 17px;
+    height: 30px;
+    width: 280px;
+    border-radius: 6px;
+    margin-left: 35px;
+    margin-top: 13px;
+}
+
+button{
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+.login{ 
+    font-size: 25px; 
+    margin-top: 29px;
+    margin-left: 700px;
+    justify-content: flex-end;
+}
+
+#sign{
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
